@@ -1,0 +1,19 @@
+NAME="qqwing"
+VERSION=1.2.0
+RELEASE=1
+CATEGORY="Games"
+SUMMARY="Sudoku solver and generator"
+DESCRIPTION="QQwing is software for generating and solving Sudoku puzzles."
+HOMEPAGE="http://qqwing.com/"
+SRC_URI="http://qqwing.com/qqwing-${VERSION}.tar.gz"
+
+PKG_NAMES="qqwing libqqwing2 libqqwing-devel"
+qqwing_CONTENTS="usr/bin/qqwing.exe usr/share/doc/ usr/share/man/man1/"
+libqqwing2_CATEGORY="Libs"
+libqqwing2_CONTENTS="usr/bin/cygqqwing-2.dll"
+libqqwing_devel_CATEGORY="Libs"
+libqqwing_devel_CONTENTS="usr/include/qqwing.hpp usr/lib/libqqwing.dll.a usr/lib/pkgconfig/qqwing.pc"
+
+DISTCLEANFILES="qqwing.pc"
+
+KEEP_LA_FILES=none
