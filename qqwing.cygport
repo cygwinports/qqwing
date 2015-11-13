@@ -1,5 +1,5 @@
 NAME="qqwing"
-VERSION=1.2.0
+VERSION=1.3.4
 RELEASE=1
 CATEGORY="Games"
 SUMMARY="Sudoku solver and generator"
